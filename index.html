@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="bloc-icon.png" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Bloc de notas</title>
+</head>
+<body>
+  <main>
+    <section class="container">
+      <article class="top-bar">
+        <span>
+          &nbsp;
+          <img src="bloc-icon.png" alt="bloc-icon" width="12" height="12">
+          &nbsp; Reseñas no editables
+        </span>&nbsp;
+        <span class="close-min-max-btns">
+          <i onclick="document.getElementsByClassName('container')[0].style.display = 'none'"
+          class="fa fa-circle text-red" aria-hidden="true"></i>
+          <i onclick="document.getElementsByClassName('container')[0].style.display = 'none'"
+          class="fa fa-circle text-yellow" aria-hidden="true"></i>
+          <i onclick="document.getElementsByClassName('container')[0].style.display = 'none'"
+          class="fa fa-circle text-green" aria-hidden="true"></i>
+          </span>
+      </article>
+      <article class="white-bg round-borders">
+        <p class="review">Esto es un texto no editable.</p>
+        <p class="review">Tan sólo es un párrafo</p>
+        <p class="review">En caso de querer editar, ve al código.</p>
+        <p class="review">¿Quizás un Input te ayudaría?</p>
+        <p class="review"></p>
+        <p class="review">¡La vida es simple! ;)</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
